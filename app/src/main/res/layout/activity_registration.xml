@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282836"
+
+     >
+
+    <!-- Registration Form -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/textColorHighlight"
+        android:alpha="0.7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="28dp">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:scr="@drawable/login_icon" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            app:srcCompat="@android:drawable/ic_lock_lock" />
+
+        <TextView
+            android:layout_width="396dp"
+            android:layout_height="160dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Welcom to Student Food Application"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textsize=" 40sp" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               app:cardCornerRadius="28dp"
+               android:layout_marginBottom="-20dp"
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:padding="28dp">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Welcome"
+                       android:textColor="#282836"
+                       android:textSize="32sp"
+                       android:textStyle="bold"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Please SignUp with your Information "
+                       android:textColor="#282836"
+                       android:alpha="0.7"/>
+                   <View
+                       android:layout_width="wrap_content"
+                       android:layout_height="30dp"/>
+
+                   <TextView
+                       android:id="@+id/SId"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Student Id"
+                       android:textColor="#282836"
+                       android:alpha="0.7"
+                       android:textStyle="bold"/>
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="number"
+                       android:hint="Enter your Identity Number"/>
+                   <View
+                       android:layout_width="wrap_content"
+                       android:layout_height="30dp"/>
+
+                   <TextView
+                       android:id="@+id/SFullName"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Student Full Name"
+                       android:textColor="#282836"
+                       android:alpha="0.7"
+                       android:textStyle="bold"/>
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="text"/>
+                   <View
+                       android:layout_width="wrap_content"
+                       android:layout_height="20dp"/>
+
+                   <TextView
+                       android:id="@+id/DOB"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Date of Birth"
+                       android:textColor="#282836"
+                       android:alpha="0.7"
+                       android:textStyle="bold"/>
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="date"/>
+
+                   <View
+                       android:layout_width="wrap_content"
+                       android:layout_height="10dp"/>
+                   <com.google.android.material.button.MaterialButton
+                       android:backgroundTint="#282836"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:text="SignUp"
+                       android:id="@+id/Signup_btn"
+                       app:cornerRadius="32dp"/>
+                   <View
+                       android:layout_width="wrap_content"
+                       android:layout_height="10dp"/>
+              </LinearLayout>
+
+
+
+
+
+
+           </androidx.cardview.widget.CardView>
+
+
